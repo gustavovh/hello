@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quimfa</title>
+    <link rel="stylesheet" href="css/estilos.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="logo">
+        <img src="imgs/dexilanz-logo.png" alt="" />
+      </div>
+      <!-- FIN LOGO-->
+      <div class="main-content">
+        <div class="titulo-interior">
+          <img src="imgs/titulo-paginas-interiores.png" alt="" />
+        </div>
+        <!-- FIN TITULO INTERIOR-->
+        <div class="producto">
+          <div class="pasos-tratamiento">
+            <div class="paso">
+              <img src="imgs/tratamiento-1.png" alt="" />
+            </div>
+            <!-- FIN PASO-->
+            <div class="paso">
+              <img src="imgs/tratamiento-2.png" alt="" />
+            </div>
+            <!-- FIN PASO-->
+            <div class="paso">
+              <img src="imgs/tratamiento-3.png" alt="" />
+            </div>
+            <!-- FIN PASO-->
+            <div class="paso">
+              <img src="imgs/tratamiento-4.png" alt="" />
+            </div>
+            <!-- FIN PASO-->
+          </div>
+          <!-- FIN PASOS TRATAMIENTO-->
+        </div>
+        <!-- FIN PRODUCTO-->
+      </div>
+      <!-- FIN MAIN CONTENT-->
+    </div>
+    <!-- FIN WRAPPER-->
+    <div class="logo-gastro">
+      <img src="imgs/gastro-quimfa-logo.png" alt="" />
+    </div>
+    <!-- FIN LOGO GASTRO-->
+    <div class="logo-lo-mejor">
+      <img src="imgs/lo-mejor.png" alt="" />
+    </div>
+    <!-- FIN LOGO LO MEJOR-->
+    <div class="boton volver">
+      <a href="index.html">Volver</a>
+    </div>
+    <div class="boton ver-mas">
+      <a href="detalle2.html">Más info</a>
+    </div>
+  </body>
+  <script src="js/gsap.min.js"></script>
+  <script src="js/animaciones.js"></script>
+  <script src="js/CLMStatreporter.js"></script>
+  <script>
+    function buildStats() {
+      return '{"stamp": "' + new Date().toString() + '"}';
+    }
+    CLMStatreporter.initContext(buildStats);
+  </script>
+</html>
